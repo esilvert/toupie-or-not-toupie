@@ -46,6 +46,10 @@
       p {
         margin: 0.5rem 0;
       }
+      .gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      }
     </style>
   </head>
   <body>
@@ -170,6 +174,22 @@
         poncez la base. Admirez votre travail, et faites tourner la toupie !
         Chaque rotation est une petite récompense.
       </p>
+    </div>
+
+    <hr />
+
+    <div class="step">
+      <h2>Les toupie-or-not-toupie existent en plusieurs formats !</h2>
+      <p>
+        Commandez dès maintenant votre toupie faite <b>sur-mesure</b> avec sa
+        forme unique et originale !
+      </p>
+
+      <div class="gallery">
+        <img src="images/toupie1.jpg" alt="Toupie 1" />
+        <img src="images/toupie2.jpg" alt="Toupie 2" />
+        <img src="images/toupie3.jpg" alt="Toupie 3" />
+      </div>
     </div>
   </body>
 </html>
